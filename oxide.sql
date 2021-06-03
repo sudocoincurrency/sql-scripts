@@ -6,7 +6,7 @@ CREATE TABLE users (
 
 CREATE TABLE config (
     id int default 1 NOT NULL UNIQUE,
-    coinsMined float default 0 NOT NULL,
+    coinsMined DOUBLE(21, 17) default 0 NOT NULL,
     coinCap float default 350 NOT NULL
 );
 
